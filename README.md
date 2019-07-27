@@ -6,4 +6,4 @@ This dataset contains the full Lending Club data available from their [*site*](h
 We trained a 7-layer NN using Keras and since we had a class-imbalance problem, we applied Early Stopping and we used the F1-score as the evaluation metric in order to pick the best model.
 
 ## Results
-Even though we built a very simple model, the 7-layer NN was able to beat the Top Voted kernel in Kaggle as can be shown here [*Kaggle Top Kernel*](https://www.kaggle.com/pileatedperch/predicting-charge-off-from-initial-listing-data) by using exactly the same data preprocessing techniques. More specifically, the top Kaggle kernel had achieved AUC=0.689 while our model achieved ### AUC = 0.695.
+Even though we built a very simple model, the 7-layer NN was able to beat the Top Voted kernel in Kaggle as can be shown here [*Kaggle Top Kernel*](https://www.kaggle.com/pileatedperch/predicting-charge-off-from-initial-listing-data) by using exactly the same data preprocessing techniques. More specifically, the top Kaggle kernel had achieved AUC=0.689 while our model achieved ** AUC = 0.695 **.
