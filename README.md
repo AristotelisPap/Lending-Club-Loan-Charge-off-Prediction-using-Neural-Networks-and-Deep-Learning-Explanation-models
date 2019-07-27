@@ -8,3 +8,8 @@ We trained a 7-layer NN using Keras and since we had a class-imbalance problem, 
 ## Results
 Even though we built a very simple model, the 7-layer NN was able to **beat the Top Voted kernel in Kaggle** as can be shown here [*Kaggle Top Kernel*](https://www.kaggle.com/pileatedperch/predicting-charge-off-from-initial-listing-data) by using exactly the same data preprocessing techniques. More specifically, the top Kaggle kernel had achieved AUC=0.689 while our model achieved **AUC = 0.695** as can be shown in the following figure:
 
+<p align="center">
+    <img src="Plot.png" height="450"/>
+    <p align="center">Fig. 3. A two-layer multimodal network for GCNN Model with convolutions across K-hop distances</p>
+</p>
+
