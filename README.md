@@ -1,3 +1,6 @@
 ## Data
 
-This dataset contains the full Lending Club data available from their [*site*](https://www.lendingclub.com/info/download-data.action). There are separate files for accepted and rejected loans. The accepted loans also include the FICO scores, which can only be downloaded when you are signed in to Lending Club and download the data. The data used contain all the Loans of the Lending Club in the period of 2007 - 2018 consisting of > ~1.5M samples and > 150 features.
+This dataset contains the full Lending Club data available from their [*site*](https://www.lendingclub.com/info/download-data.action). There are separate files for accepted and rejected loans. The accepted loans also include the FICO scores, which can only be downloaded when you are signed in to Lending Club and download the data. The data used contain all the Loans of the Lending Club in the period of 2007 - 2018 consisting of > ~1.5M samples and > 150 features. Our goal in this project was the prediction of whether someone who submits an application for a loan, will be able to Fully Pay the loan or if the loan will be Charged off.
+
+## Model
+We trained a 7-layer NN using Keras and since we had a class-imbalance problem, we applied Early Stopping and we used the F1-score as the evaluation metric in order to pick the best model.
